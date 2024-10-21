@@ -7,7 +7,7 @@ namespace Selenium.Framework.NUnit.Complex.Tests.GoogleTests;
 public class ComplexWikiTests : WikiTestSetup
 {
     [SetUp]
-    public void GoogleSetup()
+    public void WikiSetup()
     {
         new WikiSearchPage().GoTo();
     }
