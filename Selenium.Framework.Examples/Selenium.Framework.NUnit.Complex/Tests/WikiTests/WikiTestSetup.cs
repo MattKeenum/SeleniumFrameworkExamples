@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Selenium.Framework.NUnit.Complex.Tests.GoogleTests;
+namespace Selenium.Framework.NUnit.Complex.Tests.WikiTests;
 
 public class WikiTestSetup : BaseTestSetup
 {

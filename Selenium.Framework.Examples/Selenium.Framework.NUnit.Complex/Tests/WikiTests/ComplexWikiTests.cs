@@ -2,7 +2,7 @@ using Selenium.Framework.NUnit.Complex.DataProviders;
 using Selenium.Framework.NUnit.Complex.Models;
 using Selenium.Framework.NUnit.Complex.ObjectModels;
 
-namespace Selenium.Framework.NUnit.Complex.Tests.GoogleTests;
+namespace Selenium.Framework.NUnit.Complex.Tests.WikiTests;
 
 public class ComplexWikiTests : WikiTestSetup
 {
