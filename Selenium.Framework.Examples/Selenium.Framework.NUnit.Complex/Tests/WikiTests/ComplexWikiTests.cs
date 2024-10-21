@@ -17,8 +17,6 @@ public class ComplexWikiTests : WikiTestSetup
     public void SearchTests(WikiTestEntity entity)
     {
         WikiSearchPage page = new();
-        entity.SearchTerm = "Selenium";
-
         page.Search(entity.SearchTerm);
 
         Assert.That(page.GetArticleTitle, Does.Contain(entity.SearchTerm), $"Failed to search for {entity.SearchTerm}");
